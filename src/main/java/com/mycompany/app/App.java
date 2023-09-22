@@ -94,7 +94,7 @@ public class App extends Application {
     // An API key is required to enable access to services, web maps, and web scenes hosted in ArcGIS Online.
     // If you haven't already, go to your developer dashboard to get your API key.
     // Please refer to https://developers.arcgis.com/java/get-started/ for more information
-    String yourAPIKey = System.getProperty("apiKey");
+    String yourAPIKey = "AAPKaa4404f68945465eaaf83c8901864a9ao_8vWkWy0craH0_JaOez8bBBc1oDVSRp52fkYoM3fKO1OH6bCA4r1C2VWxlnZwRo";
     ArcGISRuntimeEnvironment.setApiKey(yourAPIKey);
     System.out.println("API key -" + yourAPIKey);
     ArcGISRuntimeEnvironment.setApiKey(yourAPIKey);
@@ -128,7 +128,7 @@ public class App extends Application {
     setUpTextInputDialog();
 
     // create a service geodatabase from the service layer url and load it --- STEP ---
-    /*
+
     var serviceGeodatabase = new ServiceGeodatabase(SERVICE_LAYER_URL);
 
     // the done loading listener will run the enclosed code on a separate thread which is off the UI thread
@@ -148,7 +148,7 @@ public class App extends Application {
     serviceGeodatabase.loadAsync();
 
 
-     */
+
 
 
 
